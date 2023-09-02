@@ -1,14 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Error from './pages/Error';
+import MainContainer from './components/global/MainContainer';
+import LanguageContextProvider from './utility/contextLang';
+import ThemeContextProvider from './utility/contextTheme';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <LanguageContextProvider>
+    <ThemeContextProvider>
+      <React.StrictMode>
+                <BrowserRouter>
+                  <MainContainer>
+                  <Header />
+                      <Routes>
+                          <Route path="/" element={<Home />} />
+                          <Route path="*" element={<Error />} />
+                      </Routes>
+                    <Footer />
+                  </MainContainer>
+            </BrowserRouter>
+      </React.StrictMode>
+    </ThemeContextProvider>
+  </LanguageContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
