@@ -1,0 +1,9 @@
+footer {
+    background-color: var(--transparent-background-color);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+    color: var(--primary-text-color);
+}

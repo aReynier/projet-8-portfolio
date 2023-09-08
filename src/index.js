@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Error from './pages/Error';
 import MainContainer from './components/global/MainContainer';
+import DataProvider from './components/global/DataProvider';
 import LanguageContextProvider from './utility/contextLang';
 import ThemeContextProvider from './utility/contextTheme';
 
@@ -19,12 +20,14 @@ root.render(
       <React.StrictMode>
                 <BrowserRouter>
                   <MainContainer>
-                  <Header />
+                    <DataProvider>
+                    <Header />
                       <Routes>
                           <Route path="/" element={<Home />} />
                           <Route path="*" element={<Error />} />
                       </Routes>
                     <Footer />
+                    </DataProvider>
                   </MainContainer>
             </BrowserRouter>
       </React.StrictMode>

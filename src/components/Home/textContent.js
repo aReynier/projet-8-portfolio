@@ -3,11 +3,12 @@ const traduction =
     en: {
         title: "Hello! I'm front-end devlopper",
         headers : {
-            presentation : "Presentation",
-            softwares : "Softwares",
+            home : "Home",
+            intro : "Presentation",
             works : "Works",
             contact : "Contact"
         },
+        callToAction : "Contact me",
         workList: {
             work1: {
                 title: "kasa",
@@ -32,11 +33,12 @@ const traduction =
     fr: {
         title: "Bonjour! je suis développeur front-end",
         headers : {
-            presentation : "Présentation",
-            softwares : "Logiciels",
+            home : "Accueil",
+            intro : "Présentation",
             works : "Travaux",
             contact : "Contact",
         },
+        callToAction : "Me contacter",
         workList: {
             work1: {
                 title: "kasa",

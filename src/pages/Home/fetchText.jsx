@@ -1,6 +1,6 @@
 const fetchText = async () => {
     try {
-        const responseText = await fetch('/textContent.json')
+        const responseText = await fetch('/text.json')
         const dataText = await responseText.json()
         return dataText
     } catch (error) {

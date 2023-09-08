@@ -1,85 +1,69 @@
-import { React, useContext, createContext } from 'react';
+import { React, useContext, useState, useEffect } from 'react';
 import './Header.scss';
-import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
+
 import light from '../../../src/assets/icons/8666699_sun_icon.png'
+import whiteLight from '../../assets/icons/8666699_sun_icon-02.png'
 import dark from '../../../src/assets/icons/9025743_moon_icon.png'
+import whiteDark from '../../assets/icons/9025743_moon_icon-02.png'
+import iconMenu from '../../assets/icons/header menu icon-01.png'
+import whiteIconMenu from '../../assets/icons/header menu icon-02.png'
 import french from '../../../src/assets/icons/french flag.png'
 import english from '../../../src/assets/icons/english flag.png'
 import PersonalLogo from '../../../src/assets/logos/logo personnel temporaire_Plan de travail 1.png'
-import directText from "./../../components/Home/textContent.js"
-import { LanguageContext } from '../../utility/contextLang';
-import { ThemeContext } from '../../utility/contextTheme';
+import whitePersonalLogo from '../../assets/logos/logo temporaire_Plan de travail 1.png'
+
+import directText from '../../components/Home/textContent'
+import dataText from '../../pages/Home/fetchText';
+
+import { LanguageContext } from '../../utility/contextLang'
+import { ThemeContext } from '../../utility/contextTheme'
+
+import { AllDataContext } from '../../components/global/DataProvider'
 
 const Header = () => {
-    const [headerOpacity, setHeaderOpacity] = useState(false);
-
+    const { allData } = useContext(AllDataContext);
     const { switchLanguage, language } = useContext(LanguageContext)
     const { switchTheme, theme } = useContext(ThemeContext)
 
-    //cet élément ne sera finalement peut être pas utilisé
-    // useEffect(() => {
-    //     if (typeof window !== "undefined") {
-    //         //ATTENTION: absolument supprimer cet addEvetnListener
-    //         //voir si il y a moyen de le réaliser avec react-scroll
-    //         window.addEventListener("scroll", () =>
-    //         setHeaderOpacity(window.scrollY > 10)
-    //         );
-    //     }
-    // }, []);
+    // const [data, setData] = useState([])
+    // const [loading, setLoading] = useState(true)
 
+    // const fetchText = async () => {
+    //     const result = await { allData }
+
+    //     setData(result)
+    //     setLoading(false)
+    // }
+
+    // useEffect(() => {
+    //     fetchText()
+    // }, [])
+    
     return (
-        // <div className={`header ${headerOpacity ? "header__container" : "header__container transparency" } ${ theme === 'dark' && "dark-theme"}`}>
         <div className={`header header__container ${ theme === 'dark' && "dark-theme"}`}>
-            <div className='header__content header__logo'><img src={PersonalLogo} /></div>
+            <div className='header__content header__logo'><Link smooth spy to="home" className="header__link--link inactive" activeClass="active" ><img src={ theme === 'dark' ? whitePersonalLogo : PersonalLogo } /></Link></div>
                 <ul className='header__content header__links'>
+                { allData[language].headers.map((title) => 
                     <div className='link__container'>
-                        <li><Link smooth spy to="intro" className="header__link--link inactive" activeClass="active" >
-                            <div>{ directText[language].headers.presentation }</div>
+                        <li><Link smooth spy to={title.anchor} className="header__link--link inactive" activeClass="active" offset={parseInt(title.offset)} >
+                            <div>{ title.link }</div>
                             <div className="test__square" >
                                 <div className="test__line"></div>                            
                                 <div className="test__carre"></div>
                                 <div className="test__line"></div>
                             </div>
-                            </Link></li>
-                    </div>
-                    <div className='link__container'>
-                    <li><Link smooth spy to="soft" className="header__link--link inactive" activeClass="active" >
-                        <div>{ directText[language].headers.softwares }</div>
-                        <div className="test__square" >
-                            <div className="test__line"></div>                            
-                            <div className="test__carre"></div>
-                            <div className="test__line"></div>
-                        </div>
                         </Link></li>
                     </div>
-                    <div className='link__container'>
-                    <li><Link smooth spy to="work" className="header__link--link inactive" activeClass="active">
-                        <div>{ directText[language].headers.works }</div>
-                        <div className="test__square">
-                            <div className="test__line"></div>                            
-                            <div className="test__carre"></div>
-                            <div className="test__line"></div>
-                        </div>
-                    </Link></li>
-                    </div>
-                    <div className='link__container'>
-                    <li><Link smooth spy to="contact" className="header__link--link inactive" activeClass="active">
-                        <div>{ directText[language].headers.contact }</div>
-                        <div className="test__square">
-                            <div className="test__line"></div>                            
-                            <div className="test__carre"></div>
-                            <div className="test__line"></div>
-                        </div>
-                        </Link></li>
-                    </div>
+                    )
+                }
                 </ul>
                 <div className="header__content">
                 <div className="language__super__container">
                     <ul className="language__container">
-                        <li className='language__li'><img src={french} /></li>
+                        <li className='language__li'><img src={ theme === 'dark' ? whiteIconMenu : iconMenu } /></li>
                         <li className='language__hidden language__li'><div className='link__dark-mode'>
-                    <img src={light} />
+                    <img src={ theme === 'dark' ? whiteLight : light } />
                             <input 
                                 type="checkbox"
                                 checked={theme === 'dark'}
@@ -90,7 +74,7 @@ const Header = () => {
                             <label className="react-switch-label" htmlFor={`react-switch-new`}>
                                 <span className={`react-switch-button`} />
                             </label>
-                    <img src={dark} />
+                    <img src={ theme === 'dark' ? whiteDark : dark } />
                 </div></li>
                 <li className='language__hidden language__li'><div className='link__dark-mode'>
                     <img src={french} />

@@ -1,0 +1,156 @@
+    {
+        "en": {
+        "title": "Hello! I'm a front-end developer",
+        "headers": [
+            {
+                "link": "Home",
+                "offset": "0",
+                "anchor": "home"
+            },
+            {
+                "link": "Presentation",
+                "offset": "150",
+                "anchor": "intro"
+            },
+            {
+                "link": "Works",
+                "offset": "150",
+                "anchor": "works"
+            },
+            {
+                "link": "Contact",
+                "offset": "150",
+                "anchor": "contact"
+            }
+        ],
+        "callToAction": "Contact me",
+        "presentationText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "workList": [
+            {
+                "id": "93260586883",
+                "title": "Portfolio",
+                "url": "https://github.com/aReynier",
+                "tag": "HTML|CSS|React",
+                "description": "Portfolio made under React"
+            },
+            {
+                "id": "9326058665654",
+                "title": "Mon vieux grimoire",
+                "url": "https://github.com/aReynier",
+                "tag": "javaScript|NodeJS",
+                "description": "website backend"
+            },
+            {
+                "id": "932605869998654",
+                "title": "Kasa",
+                "url": "https://github.com/aReynier",
+                "tag": "React",
+                "description": "Project under React"
+            },
+            {
+                "id": "9326058665544",
+                "title": "Nina Carducci",
+                "url": "https://github.com/aReynier",
+                "tag": "HTML|CSS|JavaScript",
+                "description": "Site optimisation"
+            },
+            {
+                "id": "9326065234687",
+                "title": "Sophie Bluel",
+                "url": "https://github.com/aReynier",
+                "tag": "HTML|CSS|JavaScript",
+                "description": "Made with JavaScript"
+            },
+            {
+                "id": "9326065234687",
+                "title": "Booki",
+                "url": "https://github.com/aReynier",
+                "tag": "HTML|CSS",
+                "description": "HTML and CSS integration"
+            }
+        ],
+        "contactName": "Nom",
+        "contactEmail": "Email",
+        "contactMessage": "Message",
+        "personalName": "Aurore Reynier",
+        "personalEmail": "reynier.aurore@gmail.com",
+        "footer": "reynier.aurore@gmail.com"
+        },
+        "fr": {
+        "title": "Bonjour! je suis développeur front-end",
+        "headers":[
+            {
+                "link": "Accueil",
+                "offset": "0",
+                "anchor": "home"
+            },
+            {
+                "link": "Présentation",
+                "offset": "150",
+                "anchor": "intro"
+            },
+            {
+                "link": "Travaux",
+                "offset": "150",
+                "anchor": "works"
+            },
+            {
+                "link": "Contact",
+                "offset": "150",
+                "anchor": "contact"
+            }
+        ],
+        "callToAction": "Me contacter",
+        "presentationText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "workList": [
+            {
+                "id": "93260586883",
+                "title": "Portfolio",
+                "url": "https://github.com/aReynier",
+                "tag": "HTML|CSS|React",
+                "description": "Réalisation de ce portfolio sous React"
+            },
+            {
+                "id": "9326058665654",
+                "title": "Mon vieux grimoire",
+                "url": "https://github.com/aReynier",
+                "tag": "javaScript|NodeJS",
+                "description": "Réalisation du backend d'un site"
+            },
+            {
+                "id": "932605869998654",
+                "title": "Kasa",
+                "url": "https://github.com/aReynier",
+                "tag": "React",
+                "description": "Projet sous React"
+            },
+            {
+                "id": "9326058665544",
+                "title": "Nina Carducci",
+                "url": "https://github.com/aReynier",
+                "tag": "HTML|CSS|JavaScript",
+                "description": "Optimisation d'un site"
+            },
+            {
+                "id": "9326065234687",
+                "title": "Sophie Bluel",
+                "url": "https://github.com/aReynier",
+                "tag": "HTML|CSS|JavaScript",
+                "description": "Mise en place du javascript"
+            },
+            {
+                "id": "9326065234687",
+                "title": "Booki",
+                "url": "https://github.com/aReynier",
+                "tag": "HTML|CSS",
+                "description": "intégration de site HTML et CSS"
+            }
+        ],
+        "contactName": "Nom",
+        "contactEmail": "Email",
+        "contactMessage": "Message",
+        "personalName": "Aurore Reynier",
+        "personalEmail": "reynier.aurore@gmail.com",
+        "footer": "reynier.aurore@gmail.com"
+        }
+    }

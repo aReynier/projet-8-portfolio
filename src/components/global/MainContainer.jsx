@@ -1,5 +1,5 @@
 import { ThemeContext } from '../../utility/contextTheme';
-import { useContext } from "react";
+import { useContext, useState, useEffect } from "react";
 
 const MainContainer = ({ children }) => {
     const { switchTheme, theme } = useContext(ThemeContext)
