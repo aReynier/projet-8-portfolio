@@ -3,7 +3,8 @@
   --primary-text-color: #4540E3;
   --secondary-background-color: #4540E3;
   --secondary-twist-background-color: #4540E3;
-  --secondary-unactive-background-color: #B5B3F4;
+  --secondary-active-background-color: #0F0E2D;
+  --secondary-unactive-background-color: #4540E3;
   --secondary-text-color: white;
   --tertiary-background-color: #F3D678;
   --transparent-background-color: rgba(255, 255, 255, 0.2);
@@ -26,6 +27,7 @@
   --primary-text-color: white;
   --secondary-background-color: #3430AA;
   --secondary-twist-background-color: #0F0E2D;
+  --secondary-active-background-color: #3430AA;
   --secondary-unactive-background-color: #0F0E2D;
   --secondary-text-color: white;
   --tertiary-background-color: #0F0E2D;
@@ -46,8 +48,7 @@
 
 @font-face {
   font-family: chromate;
-  src: url('../src/assets/fonts/Chromate-Regular.otf') format('truetype'),
-      url('../src/assets/fonts/Chromate-Regular.ttf') format('opentype');
+  src: url('../src/assets/fonts/Chromate-Regular.otf') format('truetype');
 }
 
 @font-face {

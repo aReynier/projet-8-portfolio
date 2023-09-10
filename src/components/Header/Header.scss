@@ -248,6 +248,10 @@ $main-background-color: white;
     background-color: lightgray;
   }
 
+  .language__super__container label p {
+    display: none;
+  }
+
   @media screen and (max-width: 1024px) {
 
   }

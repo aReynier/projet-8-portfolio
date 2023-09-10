@@ -1,6 +1,6 @@
     {
         "en": {
-        "title": "Hello! I'm a front-end developer",
+        "title": "Hello! I'm front-end developer",
         "headers": [
             {
                 "link": "Home",
@@ -24,58 +24,69 @@
             }
         ],
         "callToAction": "Contact me",
-        "presentationText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "presentationText": "I'm Aurore, a passionate web developer with skills in HTML, CSS, JavaScript, and React. I also have some knowledge of Photoshop, Illustrator and drawing acquired through my past experiences. I am currently seeking my first opportunity as a junior Front-End developer. Feel free to explore my portfolio below and get in touch if you find my profile appealing. I'm excited about the prospect of applying my skills within a dynamic team and contributing to the success of web projects.",
         "workList": [
             {
                 "id": "93260586883",
                 "title": "Portfolio",
                 "url": "https://github.com/aReynier",
                 "tag": "HTML|CSS|React",
-                "description": "Portfolio made under React"
+                "description": "Portfolio made under React",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview_portfolio.jpg"
             },
             {
                 "id": "9326058665654",
                 "title": "Mon vieux grimoire",
                 "url": "https://github.com/aReynier",
-                "tag": "javaScript|NodeJS",
-                "description": "website backend"
+                "tag": "JavaScript|NodeJS",
+                "description": "website backend",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.jpg"
             },
             {
                 "id": "932605869998654",
                 "title": "Kasa",
                 "url": "https://github.com/aReynier",
                 "tag": "React",
-                "description": "Project under React"
+                "description": "Project under React",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-casa.jpg"
             },
             {
                 "id": "9326058665544",
                 "title": "Nina Carducci",
                 "url": "https://github.com/aReynier",
                 "tag": "HTML|CSS|JavaScript",
-                "description": "Site optimisation"
+                "description": "Site optimisation",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-nina-carducci.jpg"
             },
             {
-                "id": "9326065234687",
+                "id": "93260652344659",
                 "title": "Sophie Bluel",
                 "url": "https://github.com/aReynier",
                 "tag": "HTML|CSS|JavaScript",
-                "description": "Made with JavaScript"
+                "description": "Made with JavaScript",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-Sophie-Bluel.jpg"
             },
             {
                 "id": "9326065234687",
                 "title": "Booki",
                 "url": "https://github.com/aReynier",
                 "tag": "HTML|CSS",
-                "description": "HTML and CSS integration"
+                "description": "HTML and CSS integration",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-booki.jpg"
             }
         ],
-        "contactName": "Nom",
-        "contactEmail": "Email",
-        "contactMessage": "Message",
-        "personalName": "Aurore Reynier",
-        "personalEmail": "reynier.aurore@gmail.com",
-        "footer": "reynier.aurore@gmail.com"
-        },
+        "contact": [
+            {
+            "contactName": "Name",
+            "contactEmail": "Email",
+            "contactMessage": "Message",
+            "send": "Send",
+            "personalName": "Aurore Reynier",
+            "personalEmail": "reynier.aurore@gmail.com"
+            }
+        ],
+        "footer": "Aurore Reynier - 2023"
+    },
         "fr": {
         "title": "Bonjour! je suis développeur front-end",
         "headers":[
@@ -101,56 +112,67 @@
             }
         ],
         "callToAction": "Me contacter",
-        "presentationText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "presentationText": "Je suis Aurore, passionnée en développement web. J'ai des compétences en HTML, CSS, JavaScript, ainsi que React. Je dispose aussi de quelques notions de photoshop, d'illustrator et de dessin acquises lors de mes expériences passées. Je suis actuellement à la recherche de ma première opportunité en tant que développeur Front-End junior. N'hésitez pas à explorer mes réalisations ci-dessous et à me contacter si vous êtes intéressés par mon profil. Je suis enthousiaste à l'idée de mettre en pratique mes compétences au sein d'une équipe dynamique et de contribuer au succès de projets web.",
         "workList": [
             {
                 "id": "93260586883",
                 "title": "Portfolio",
                 "url": "https://github.com/aReynier",
                 "tag": "HTML|CSS|React",
-                "description": "Réalisation de ce portfolio sous React"
+                "description": "Réalisation de ce portfolio sous React ",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview_portfolio.jpg"
             },
             {
                 "id": "9326058665654",
                 "title": "Mon vieux grimoire",
                 "url": "https://github.com/aReynier",
-                "tag": "javaScript|NodeJS",
-                "description": "Réalisation du backend d'un site"
+                "tag": "JavaScript|NodeJS",
+                "description": "Réalisation du backend d'un site",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.jpg"
             },
             {
                 "id": "932605869998654",
                 "title": "Kasa",
                 "url": "https://github.com/aReynier",
                 "tag": "React",
-                "description": "Projet sous React"
+                "description": "Projet sous React",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-casa.jpg"
             },
             {
                 "id": "9326058665544",
                 "title": "Nina Carducci",
                 "url": "https://github.com/aReynier",
                 "tag": "HTML|CSS|JavaScript",
-                "description": "Optimisation d'un site"
+                "description": "Optimisation d'un site",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-nina-carducci.jpg"
             },
             {
-                "id": "9326065234687",
+                "id": "93260652344659",
                 "title": "Sophie Bluel",
                 "url": "https://github.com/aReynier",
                 "tag": "HTML|CSS|JavaScript",
-                "description": "Mise en place du javascript"
+                "description": "Mise en place du javascript",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-Sophie-Bluel.jpg"
             },
             {
                 "id": "9326065234687",
                 "title": "Booki",
                 "url": "https://github.com/aReynier",
                 "tag": "HTML|CSS",
-                "description": "intégration de site HTML et CSS"
+                "description": "intégration de site HTML et CSS",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-booki.jpg"
             }
         ],
-        "contactName": "Nom",
-        "contactEmail": "Email",
-        "contactMessage": "Message",
-        "personalName": "Aurore Reynier",
-        "personalEmail": "reynier.aurore@gmail.com",
-        "footer": "reynier.aurore@gmail.com"
+        "contact": [
+            {
+            "contactName": "Nom",
+            "contactEmail": "Email",
+            "contactMessage": "Message",
+            "send": "Envoyer",
+            "personalName": "Aurore Reynier",
+            "personalEmail": "reynier.aurore@gmail.com"
+            }
+        ],
+        "footer": "Aurore Reynier - 2023"
         }
     }
