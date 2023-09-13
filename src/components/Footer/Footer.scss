@@ -7,3 +7,17 @@ footer {
     backdrop-filter: blur(3px);
     color: var(--primary-text-color);
 }
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p {
+    margin: 2px;
+}
+
+.footer__credit {
+    font-size: 12px;
+}

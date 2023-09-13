@@ -13,7 +13,7 @@
   --transparent-border-1: rgba(255, 255, 255, 0.6);
   --transparent-border-2: rgba(255, 255, 255, 0.75);
   --transparent-border-3: rgba(255, 255, 255, 0.5);
-  --background-pattern: repeat url(../src/assets/images/reproduction\ motif\ test\ 1_Plan\ de\ travail\ 1.png);
+  --background-pattern: repeat url(../src/assets/images/reproduction\ motif\ test\ 1_Plan\ de\ travail\ 1.webp);
   --title-square: #E3913F;
   --decorative-color-1: #4540E3;
   --decorative-color-2: #E3913F;
@@ -37,7 +37,7 @@
   --transparent-border-1: rgba(255, 255, 255, 0.3);
   --transparent-border-2: rgba(255, 255, 255, 0.38);
   --transparent-border-3: rgba(255, 255, 255, 0.25);
-  --background-pattern: repeat url(../src/assets/images/reproduction\ motif\ test\ 2_dark\ mode_Plan\ de\ travail\ 1\ copie.png);
+  --background-pattern: repeat url(../src/assets/images/reproduction\ motif\ test\ 1_Plan\ de\ travail\ 1\ copie\ 2.webp);
   --title-square: #3430AA;
   --decorative-color-1: black;
   --decorative-color-2: #0F0E2D;
@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: chromate;
-  src: url('../src/assets/fonts/Chromate-Regular.otf') format('truetype');
+  src: url('../src/assets/fonts/Noctis-Heavy-trial.ttf') format('truetype');
 }
 
 @font-face {

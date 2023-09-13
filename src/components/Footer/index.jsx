@@ -1,18 +1,20 @@
-import { React, useContext } from 'react'
+import { React, useContext } from 'react';
 import './Footer.scss';
-import { AllDataContext } from '../../components/global/DataProvider'
-import { LanguageContext } from '../../utility/contextLang'
+import { Data } from '../../state/useData';
+import { UseLanguage } from '../../state/useLanguage';
 
 const Footer = () => {
-    const { allData } = useContext(AllDataContext);
-    const { switchLanguage, language } = useContext(LanguageContext)
-    
+  const { data } = useContext(Data);
+  const { language } = useContext(UseLanguage);
 
-    return (
-        <footer>
-                <div>{ allData[language].footer }</div>
-        </footer>
-    )
-}
+  return (
+    <footer>
+      <div>
+        <p>{data[language].footer}</p>
+        <p className="footer__credit">{data[language].credit}</p>
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

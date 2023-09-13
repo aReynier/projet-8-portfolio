@@ -1,39 +1,56 @@
-import HomeWorks from '../HomeWorks/HomeWorks'
+import { React, useState } from 'react';
+import WorksCards from './WorksSubContainer/WorksCards/WorksCards';
+import WorksTags from './WorksSubContainer/WorksTags/WorksTags';
 
-const Works = props => {
-    const {allData, language} = props
+const Works = (props) => {
+  const { data, language } = props;
+  const [selectedTag, setSelectedTag] = useState();
 
-    return(
-        <div  id="works" className='work'>
-            <div className='transition__background2'></div>
-            <div className='home_work__container'>
-            <div className='work__square--decor--container'>
-                <div className='work__square--decor'>
-                    {}
-                    <div className='work__square--decor-s work__square--decor-s1'></div>
-                    <div className='work__square--decor-s work__square--decor-s2'></div>
-                    <div className='work__square--decor-s work__square--decor-s3'></div>
-                    <div className='work__square--decor-s work__square--decor-s4'></div>
-                    <div className='work__square--decor-s work__square--decor-s5'></div>
-                    <div className='work__square--decor-s work__square--decor-s6'></div>
-                    <div className='work__square--decor-s work__square--decor-s7'></div>
-                    <div className='work__square--decor-s work__square--decor-s8'></div>
-                    <div className='work__square--decor-s work__square--decor-s9'></div>
-                    <div className='work__square--decor-s work__square--decor-s10'></div>
-                </div>
+  const squareDecor = [];
+  for (let i = 1; i < 11; i += 1) {
+    squareDecor.push(`s${i}`);
+  }
+
+  return (
+    <div id="works" className="work">
+      <div className="transition__background2" />
+      <div className="home_work__container">
+        <div className="work__square--decor--container">
+          <div className="work__square--decor">
+            {squareDecor.map((square) => (
+              <div
+                className={`work__square--decor-s work__square--decor-${square}`}
+                key={square}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="home__title--container">
+          <div className="home__title--square-container">
+            <div className="home__title--square-1">
+              <div className="home__title--square-2" />
             </div>
-            <div className='home__title--container' >
-                <div className='home__title--square-container'>
-                    <div className='home__title--square-1'>
-                        <div className='home__title--square-2'></div>
-                    </div>
-                </div>
-                <h2 className='work__title home__title-text'>{ allData[language].headers[2].link }</h2>
-            </div>
-       < HomeWorks data={allData} language={language}/>
-       </div>
+          </div>
+          <h2 className="work__title home__title-text">
+            {data[language].headers[2].link}
+          </h2>
+        </div>
+        <div className="home__works">
+          <WorksTags
+            data={data}
+            language={language}
+            selectedTag={selectedTag}
+            setSelectedTag={setSelectedTag}
+          />
+          <WorksCards
+            data={data}
+            language={language}
+            selectedTag={selectedTag}
+          />
+        </div>
+      </div>
     </div>
-    )
-}
+  );
+};
 
-export default Works
+export default Works;

@@ -8,16 +8,16 @@
 }
 
 .home__container h1 {
-    font-size: 42px;
+    font-size: 46px;
 }
 
 .home__container h1, .home__container h2 {
     color: var(--primary-text-color);
-    margin-top: 22px;
+    margin-top: 18px;
 }
 
 .home__container h2 {
-    font-size: 42px;
+    font-size: 46px;
     font-family: chromate, sans-serif;
 }
 
@@ -74,7 +74,6 @@
 }
 
 .home__introduction {
-    // background: linear-gradient(black, white);
     height: 100vh;
     text-align: center;
     display: flex;
@@ -248,6 +247,7 @@
     font-size: 18px;
     box-shadow: 0 0 5px black;
     transition: box-shadow 0.15s ease-out;
+    font-family: bagnardsans, sans-serif;
 }
 
 .home__introduction--button:hover {
@@ -298,7 +298,7 @@
     position: relative;
     background-color: var(--tertiary-background-color);
     rotate: 45deg;
-    box-shadow: inset 10px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     display: flex;
     justify-content: center;
@@ -317,7 +317,7 @@
 }
 
 .home__software_square:hover {
-    box-shadow: inset 15px 10px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 14px rgba(0, 0, 0, 0.4);
 }
 
 .home__card-content {
@@ -327,7 +327,6 @@
 
 .home__card {
     width: 449px;
-    min-height: 300px;
     background-color: var(--transparent-secondary-background-color);
     border-radius: 5px;
     border-top: solid 1px var(--transparent-border-2);
@@ -344,12 +343,17 @@
 .home__card h3 {
     color: var(--primary-text-color);
     font-family: chromate, sans-serif;
+    width: 90%;
+    text-align: center;
+    font-size: 22px;
 }
 
 .home__card p {
     color: var(--primary-text-color);
     font-family: bagnardsans, sans-serif;
-    margin: 30px;
+    width: 80%;
+    text-align: center;
+    margin: 20px 0 5px 0;
 }
 
 .home__card a {
@@ -360,6 +364,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .home__card-tag-container {
@@ -376,6 +381,9 @@
     display: flex;
     align-items: center;
     z-index: 2;
+    font-family: bagnardsans, sans-serif;
+    font-size: 15px;
+    padding: 0 8px;
 }
 
 .home__card-tag p {
@@ -384,20 +392,20 @@
 
 .home__card-tag-square {
     background-color: var(--secondary-background-color);
-    width: 22px;
-    height: 22px;
+    width: 21px;
+    height: 21px;
     rotate: 45deg;
     z-index: 1;
 }
 
 .home__card-tag-square:nth-child(1) {
     position: relative;
-    left: 12px;
+    left: 10px;
 }
 
 .home__card-tag-square:nth-child(3) {
     position: relative;
-    right: 12px;
+    right: 10px;
 }
 
 .home__card-image {
@@ -408,6 +416,48 @@
 
 .home__card:hover .home__background-image {
     opacity: 0.5;
+}
+
+.home__card-description {
+    margin-bottom: 3px;
+}
+
+.home__card ul {
+    margin: 15px 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.home__card li {
+    color: var(--primary-text-color);
+    margin: 3px;
+    font-size: 14px;
+    font-family: bagnardsans, sans-serif;
+}
+
+.home__card-button-container {
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin: 15px 0;
+}
+
+.home__card-button{
+    border: none;
+    border-radius: 3px;
+    background-color: var(--title-square);
+    color: var(--secondary-text-color);
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: bagnardsans, sans-serif;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    transition: box-shadow 0.15s ease-out;
+}
+
+.home__card-button:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
 }
 
 .work {
@@ -527,21 +577,16 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 50px;
     margin-top: 95px;
 }
-
-.home__works_link {
-    margin: 0 -2px 0 -2px;
-}
-
 
 .home__works--list{    
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 40px;
     z-index: 2;
     margin-bottom: 100px;
 }
@@ -559,11 +604,13 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    border: none;
+    background-color: unset;
 }
 
 .work__tag--square {
-    width: 23px;
-    height: 23px;
+    width: 22px;
+    height: 22px;
     rotate: 45deg;
     background-color:  var(--secondary-unactive-background-color);
 }
@@ -571,9 +618,11 @@
 .work__tag--tag {
     background-color: var(--secondary-unactive-background-color);
     border-radius: 2px;
-    padding: 5px;
+    padding: 6px 8px;
     z-index: 2;
+    font-size: 16px;
     color: white;
+    font-family: bagnardsans, sans-serif;
 }
 
 
@@ -587,12 +636,12 @@
 
 .work__tag--square:nth-child(1) {
     position: relative;
-    left: 15px;
+    left: 11px;
 }
 
 .work__tag--square:nth-child(3) {
     position: relative;
-    right: 15px;
+    right: 11px;
 }
 
 .transition__background, .background__contact {
@@ -629,12 +678,6 @@ form {
     gap: 10px;
 }
 
-.contact__form div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .contact__form label {
     color: var(--primary-text-color);
     font-family: bagnardsans, sans-serif; 
@@ -659,16 +702,47 @@ form {
     height: 35px;
     border: none;
     width: 80%;
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.4);
     transition: box-shadow 0.3s ease-out;
 }
 
 .contact__form textarea {
-    height: 200px;
+    height: 180px;
+}
+
+.contact__form--field {
+    font-family: bagnardsans, sans-serif;
+    color: var(--primary-text-color);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.contact__form textarea {
+    padding: 17px 10px;
+}
+
+.contact__form--field::placeholder {
+    font-family: bagnardsans, sans-serif;
+    color: gray;
 }
 
 .contact__form input:hover, .contact__form textarea:hover {
-    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.1);
+}
+
+.contact__form--null {
+    opacity: 0;
+    background-color: green;
+    color: var(--secondary-text-color);
+    padding: 10px 40px;
+    font-family: bagnardsans, sans-serif;
+    font-size: 18px;
+    display: block;
+    transition: opacity 0.3s;
+}
+
+.contact__form--sent {
+    opacity: 1;
 }
 
 .contact__submit {
@@ -774,7 +848,7 @@ var(--tertiary-background-color) 50%
     }
 
     .home__works--list {
-        width: 930px;
+        width: 940px;
     }
 }
 

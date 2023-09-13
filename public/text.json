@@ -24,68 +24,129 @@
             }
         ],
         "callToAction": "Contact me",
-        "presentationText": "I'm Aurore, a passionate web developer with skills in HTML, CSS, JavaScript, and React. I also have some knowledge of Photoshop, Illustrator and drawing acquired through my past experiences. I am currently seeking my first opportunity as a junior Front-End developer. Feel free to explore my portfolio below and get in touch if you find my profile appealing. I'm excited about the prospect of applying my skills within a dynamic team and contributing to the success of web projects.",
+        "presentationText": "I'm Aurore, a passionate web developer with skills in HTML, CSS, JavaScript, and React. I have completed the web developer training program at OpenClassrooms. I also have some knowledge of Photoshop, Illustrator and drawing acquired through my past experiences. I am currently seeking my first opportunity as a junior Front-End developer. Feel free to explore my portfolio below and get in touch if you find my profile appealing. I'm excited about the prospect of applying my skills within a dynamic team and contributing to the success of web projects.",
         "workList": [
             {
                 "id": "93260586883",
                 "title": "Portfolio",
-                "url": "https://github.com/aReynier",
-                "tag": "HTML|CSS|React",
+                "urls":  [ {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-8-portfolio"
+                }],
+                "tag": ["HTML", "CSS", "React"],
                 "description": "Portfolio made under React",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview_portfolio.jpg"
+                "imageUrl": "http://aurore-reynier.com/static/media/preview_portfolio.jpg",
+                "goals": [
+                    "Made under React",
+                    "Language and theme with context api",
+                    "Personnal design"
+                ]
             },
             {
                 "id": "9326058665654",
-                "title": "Mon vieux grimoire",
-                "url": "https://github.com/aReynier",
-                "tag": "JavaScript|NodeJS",
-                "description": "website backend",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.jpg"
+                "title": "Mon vieux grimoire - OpenClassrooms",
+                "urls": [ {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-7-back-end-site-mon-vieux-grimoire"
+                }],
+                "tag": ["JavaScript","NodeJS"],
+                "description": "Backend of a website",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.jpg",
+                "goals": [
+                    "NodeJS discovery",
+                    "ExpressJS discovery",
+                    "PostMan discovery"
+                ]
             },
             {
                 "id": "932605869998654",
-                "title": "Kasa",
-                "url": "https://github.com/aReynier",
-                "tag": "React",
+                "title": "Kasa - OpenClassrooms",
+                "urls": [ {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-6-site-kasa"
+                }],
+                "tag": ["React"],
                 "description": "Project under React",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-casa.jpg"
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-casa.jpg",
+                "goals": [
+                    "first React project",
+                    "Sass discovery",
+                    "Hooks and components"
+                ]
             },
             {
                 "id": "9326058665544",
-                "title": "Nina Carducci",
-                "url": "https://github.com/aReynier",
-                "tag": "HTML|CSS|JavaScript",
+                "title": "Nina Carducci - OpenClassrooms",
+                "urls":  [ {
+                    "button": "Website",
+                    "url": "https://areynier.github.io/projet-5-site-nina-carducci/"
+                },
+                {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-5-site-nina-carducci"
+                }],
+                "tag": ["HTML","CSS","JavaScript"],
                 "description": "Site optimisation",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-nina-carducci.jpg"
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-nina-carducci.jpg",
+                "goals": [
+                    "Lighthouse discovery",
+                    "Accessibility and SEO",
+                    "google search console initiation"
+                ]
             },
             {
                 "id": "93260652344659",
-                "title": "Sophie Bluel",
-                "url": "https://github.com/aReynier",
-                "tag": "HTML|CSS|JavaScript",
+                "title": "Sophie Bluel - OpenClassrooms",
+                "urls": [ {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-3-portfolio-architecte-sophie-bluel"
+                }],
+                "tag": ["HTML","CSS","JavaScript"],
                 "description": "Made with JavaScript",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-Sophie-Bluel.jpg"
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-Sophie-Bluel.jpg",
+                "goals": [
+                    "Using JavaScript for a website",
+                    "Retrieva back-end datas with fetch",
+                    "asynchrony"
+                ]
             },
             {
                 "id": "9326065234687",
-                "title": "Booki",
-                "url": "https://github.com/aReynier",
-                "tag": "HTML|CSS",
+                "title": "Booki - OpenClassrooms",
+                "urls": [ {
+                    "button": "Website",
+                    "url": "https://areynier.github.io/Projet-2-page-d-accueil-de-Booki/"
+                },
+                {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/Projet-2-page-d-accueil-de-Booki"
+                }],
+                "tag": ["HTML","CSS"],
                 "description": "HTML and CSS integration",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-booki.jpg"
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-booki.jpg",
+                "goals": [
+                    "HTML and CSS on professionalizing project",
+                    "Language and theme with context api",
+                    "Managing esponsive"
+                ]
             }
         ],
+        "workAllTag": "All",
         "contact": [
             {
             "contactName": "Name",
+            "contactNamePlaceholder": "John Doe",
             "contactEmail": "Email",
+            "contactEmailPlaceholder": "john.doe@example.com",
             "contactMessage": "Message",
+            "contactMessagePlaceholder": "Your message",
             "send": "Send",
             "personalName": "Aurore Reynier",
             "personalEmail": "reynier.aurore@gmail.com"
             }
         ],
-        "footer": "Aurore Reynier - 2023"
+        "footer": "Aurore Reynier - 2023",
+        "credit":  "image credit: Clement Helardot - unsplash"
     },
         "fr": {
         "title": "Bonjour! je suis développeur front-end",
@@ -112,67 +173,128 @@
             }
         ],
         "callToAction": "Me contacter",
-        "presentationText": "Je suis Aurore, passionnée en développement web. J'ai des compétences en HTML, CSS, JavaScript, ainsi que React. Je dispose aussi de quelques notions de photoshop, d'illustrator et de dessin acquises lors de mes expériences passées. Je suis actuellement à la recherche de ma première opportunité en tant que développeur Front-End junior. N'hésitez pas à explorer mes réalisations ci-dessous et à me contacter si vous êtes intéressés par mon profil. Je suis enthousiaste à l'idée de mettre en pratique mes compétences au sein d'une équipe dynamique et de contribuer au succès de projets web.",
+        "presentationText": "Je suis Aurore, passionnée en développement web. J'ai suivi la formation développeur web d'openClassrooms. J'ai des compétences en HTML, CSS, JavaScript, ainsi que React. Je dispose aussi de quelques notions de photoshop, d'illustrator et de dessin acquises lors de mes expériences passées. Je suis actuellement à la recherche de ma première opportunité en tant que développeur Front-End junior. N'hésitez pas à explorer mes réalisations ci-dessous et à me contacter si vous êtes intéressés par mon profil. Je suis enthousiaste à l'idée de mettre en pratique mes compétences au sein d'une équipe dynamique et de contribuer au succès de projets web.",
         "workList": [
             {
                 "id": "93260586883",
                 "title": "Portfolio",
-                "url": "https://github.com/aReynier",
-                "tag": "HTML|CSS|React",
+                "urls": [ {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-8-portfolio"
+                }],
+                "tag": ["HTML","CSS","React"],
                 "description": "Réalisation de ce portfolio sous React ",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview_portfolio.jpg"
+                "imageUrl": "http://aurore-reynier.com/static/media/preview_portfolio.jpg",
+                "goals": [
+                    "Réalisé sous React",
+                    "Langues et thèmes avec context api",
+                    "Design personnel"
+                ]
             },
             {
                 "id": "9326058665654",
-                "title": "Mon vieux grimoire",
-                "url": "https://github.com/aReynier",
-                "tag": "JavaScript|NodeJS",
+                "title": "Mon vieux grimoire - OpenClassrooms",
+                "urls":[ {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-7-back-end-site-mon-vieux-grimoire"
+                }],
+                "tag": ["JavaScript","NodeJS"],
                 "description": "Réalisation du backend d'un site",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.jpg"
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.jpg",
+                "goals": [
+                    "Découverte de NodeJS",
+                    "Découverte d'expressJS",
+                    "Découverte de postMan"
+                ]
             },
             {
                 "id": "932605869998654",
-                "title": "Kasa",
-                "url": "https://github.com/aReynier",
-                "tag": "React",
-                "description": "Projet sous React",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-casa.jpg"
+                "title": "Kasa - OpenClassrooms",
+                "urls": [ {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-6-site-kasa"
+                }],
+                "tag": ["React"],
+                "description": "Site de réservation de logements entre particulier intégré avec React",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-casa.jpg",
+                "goals": [
+                    "Premier projet sous React",
+                    "Découverte de Sass",
+                    "Hooks et composants"
+                ]
             },
             {
                 "id": "9326058665544",
-                "title": "Nina Carducci",
-                "url": "https://github.com/aReynier",
-                "tag": "HTML|CSS|JavaScript",
-                "description": "Optimisation d'un site",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-nina-carducci.jpg"
+                "title": "Nina Carducci - OpenClassrooms",
+                "urls": [ {
+                    "button": "Site",
+                    "url": "https://areynier.github.io/projet-5-site-nina-carducci/"
+                },
+                {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-5-site-nina-carducci"
+                }],
+                "tag": ["HTML","CSS","JavaScript"],
+                "description": "Optimisation du porfolio d'une photographe, les but étaait qu'il charge plus rapidement, ainsi que d'améliorer le SEO et l'accessibilité",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-nina-carducci.jpg",
+                "goals": [
+                    "Découverte de Lighthouse",
+                    "Accessibilité et SEO",
+                    "Initiation à google search console"
+                ]
             },
             {
                 "id": "93260652344659",
-                "title": "Sophie Bluel",
-                "url": "https://github.com/aReynier",
-                "tag": "HTML|CSS|JavaScript",
-                "description": "Mise en place du javascript",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-Sophie-Bluel.jpg"
+                "title": "Sophie Bluel - OpenClassrooms",
+                "urls": [ {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/projet-3-portfolio-architecte-sophie-bluel"
+                }],
+                "tag": ["HTML","CSS","JavaScript"],
+                "description": "Javascript ajouté côté front-end d'un porfolio le rendre dynamique et permettre l'ajout de travaux via un espace d'administration",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-Sophie-Bluel.jpg",
+                "goals": [
+                    "Utilisation de JavaScript pour un site web",
+                    "Récupération des données du back-end via fetch",
+                    "asynchronie"
+                ]
             },
             {
                 "id": "9326065234687",
-                "title": "Booki",
-                "url": "https://github.com/aReynier",
-                "tag": "HTML|CSS",
-                "description": "intégration de site HTML et CSS",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-booki.jpg"
+                "title": "Booki - OpenClassrooms",
+                "urls": [ {
+                    "button": "Site",
+                    "url": "https://areynier.github.io/Projet-2-page-d-accueil-de-Booki/"
+                },
+                {
+                    "button": "GitHub",
+                    "url": "https://github.com/aReynier/Projet-2-page-d-accueil-de-Booki"
+                }],
+                "tag": ["HTML","CSS"],
+                "description": "intégration de la page d'un site en HTML et CSS vanilla pour un site de réservation de logement de vacances",
+                "imageUrl": "http://aurore-reynier.com/static/media/preview-booki.jpg",
+                "goals": [
+                    "HTML et CSS dans un cadre professionalisant",
+                    "Intégration à partir d'une maquette fournie",
+                    "Gestion du responsive"
+                ]
             }
         ],
+        "workAllTag": "Tous",
         "contact": [
             {
             "contactName": "Nom",
+            "contactNamePlaceholder": "Marie Durand",
             "contactEmail": "Email",
+            "contactEmailPlaceholder": "marie.durand@exemple.fr",
             "contactMessage": "Message",
+            "contactMessagePlaceholder": "Votre message",
             "send": "Envoyer",
             "personalName": "Aurore Reynier",
             "personalEmail": "reynier.aurore@gmail.com"
             }
         ],
-        "footer": "Aurore Reynier - 2023"
+        "footer": "Aurore Reynier - 2023",
+        "credit":  "crédit image: Clement Helardot - unsplash"
         }
     }
