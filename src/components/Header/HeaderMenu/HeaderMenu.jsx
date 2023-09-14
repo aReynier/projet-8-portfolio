@@ -1,30 +1,44 @@
 import React from 'react';
-import iconMenu from '../../../assets/icons/header menu icon-03.webp';
-import whiteIconMenu from '../../../assets/icons/header menu icon white-03.webp';
-import light from '../../../assets/icons/8666699_sun_icon.png';
-import whiteLight from '../../../assets/icons/8666699_sun_icon-02.png';
-import dark from '../../../assets/icons/9025743_moon_icon.png';
-import whiteDark from '../../../assets/icons/9025743_moon_icon-02.png';
 
-import french from '../../../assets/icons/french flag.png';
-import english from '../../../assets/icons/english flag.png';
+import iconMenu from '../../../assets/icons/header menu icon.webp';
+import whiteIconMenu from '../../../assets/icons/header menu icon white.webp';
+import light from '../../../assets/icons/sun-icon.webp';
+import whiteLight from '../../../assets/icons/white-sun-icon.webp';
+import dark from '../../../assets/icons/moon-icon.webp';
+import whiteDark from '../../../assets/icons/white-moon-icon.webp';
+
+import french from '../../../assets/icons/french flag.webp';
+import english from '../../../assets/icons/english flag.webp';
+import './HeaderMenu.scss';
 
 const HeaderMenu = (props) => {
-  const { language, switchLanguage, theme, switchTheme } = props;
+  const { data, language, switchLanguage, theme, switchTheme } = props;
 
   return (
-    <div className="header__content" aria-hidden="true">
-      <div className="language__super__container">
-        <ul className="language__container">
-          <li className="language__li">
+    <div className="header__content">
+      <div className="header__menu__container">
+        <ul className="header__menu__content">
+          <li className="header__menu__list">
             <img
+              width="30"
+              height="35"
+              className="header__menu__top__image"
               src={theme === 'dark' ? whiteIconMenu : iconMenu}
               alt="header-icon-menu"
             />
           </li>
-          <li className="language__hidden language__li">
-            <div className="link__dark-mode">
-              <img src={theme === 'dark' ? whiteLight : light} alt="sun-icon" />
+          <li
+            className="header__menu--hidden header__menu__list"
+            aria-hidden="true"
+          >
+            <div className="header__menu__list__content">
+              <img
+                width="30"
+                height="30"
+                className="header__menu__image"
+                src={theme === 'dark' ? whiteLight : light}
+                alt="icone soleil"
+              />
               <input
                 type="checkbox"
                 checked={theme === 'dark'}
@@ -32,19 +46,35 @@ const HeaderMenu = (props) => {
                   switchTheme(e.target.checked ? 'dark' : null);
                 }}
                 className={`react-switch-checkbox ${theme}`}
-                id="react-switch-new"
+                id="header__menu__theme"
               />
-              <label className="react-switch-label" htmlFor="react-switch-new">
-                {/* put these label in the text.json */}
-                <p>theme</p>
-                <span className="react-switch-button" />
+              <label
+                className="header__menu__label"
+                htmlFor="header__menu__theme"
+              >
+                <p className="header__menu__label--hidden">
+                  {data[language].themeLabel}
+                </p>
+                <span className="header__menu__switch__button" />
               </label>
-              <img src={theme === 'dark' ? whiteDark : dark} alt="moon-icon" />
+              <img
+                width="30"
+                height="30"
+                className="header__menu__image"
+                src={theme === 'dark' ? whiteDark : dark}
+                alt="icone lune"
+              />
             </div>
           </li>
-          <li className="language__hidden language__li">
-            <div className="link__dark-mode">
-              <img src={french} alt="french-flag" />
+          <li className="header__menu--hidden header__menu__list">
+            <div className="header__menu__list__content">
+              <img
+                width="30"
+                height="18"
+                className="header__menu__image"
+                src={french}
+                alt="drapeau français"
+              />
               <input
                 type="checkbox"
                 checked={language === 'en'}
@@ -52,13 +82,24 @@ const HeaderMenu = (props) => {
                   switchLanguage(f.target.checked ? 'en' : 'fr');
                 }}
                 className={`react-switch-checkbox ${language}`}
-                id="react-switch-new2"
+                id="header__menu__language"
               />
-              <label htmlFor="react-switch-new2" className="react-switch-label">
-                <p>language</p>
-                <span className="react-switch-button" />
+              <label
+                htmlFor="header__menu__language"
+                className="header__menu__label"
+              >
+                <p className="header__menu__label--hidden">
+                  {data[language].languageLabel}
+                </p>
+                <span className="header__menu__switch__button" />
               </label>
-              <img src={english} alt="english-flag" />
+              <img
+                width="30"
+                height="18"
+                className="header__menu__image"
+                src={english}
+                alt="drapeau anglais"
+              />
             </div>
           </li>
         </ul>

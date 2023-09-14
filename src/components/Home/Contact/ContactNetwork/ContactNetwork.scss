@@ -1,0 +1,49 @@
+
+.contact__network--container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.contact__network p {
+    margin: 5px 0;
+    font-size: 22px;
+    color: var(--primary-text-color);
+   font-family: bagnardsans, sans-serif; 
+}
+
+.contact__network--square {
+    width: 60px;
+    height: 60px;
+    background-color: var(--secondary-background-color);
+    box-shadow: 0 0 5px black;
+    rotate: 45deg;
+    margin: 20px;
+    transition: box-shadow 0.15s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact__network--square:hover {
+    box-shadow: 0 0 2px black;
+}
+
+.contact__network--container img {
+    max-width: 55%;
+    max-height: 55%;
+    rotate: -45deg;
+}
+
+.contact__pdf--square {
+    width: 90px;
+    height: 90px;
+    margin: 45px 0;
+}
+
+.contact__pdf--container img {
+    max-width: 70%;
+    max-height: 70%;
+    rotate: -45deg;
+}

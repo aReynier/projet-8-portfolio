@@ -1,0 +1,152 @@
+.home__card-content {
+    border-radius: 5px;
+    transition: opacity 0.2s ease-out;
+}
+
+.home__card {
+    width: 449px;
+    background-color: var(--transparent-secondary-background-color);
+    border-radius: 5px;
+    border-top: solid 1px var(--transparent-border-2);
+    border-left: solid 1px var(--transparent-border-3);
+    backdrop-filter: blur(3px);
+    box-shadow: inset 0px 0px 7px var(--transparent-border-1);
+    transition: all 0.5s;
+}
+
+.home__card:hover {
+    background-color: var(--less-transparent-background-color);
+}
+
+.home__card h3 {
+    color: var(--primary-text-color);
+    font-family: noctisHeavy, sans-serif;
+    width: 90%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.home__card p {
+    color: var(--primary-text-color);
+    font-family: bagnardsans, sans-serif;
+    width: 80%;
+    text-align: center;
+    margin: 20px 0 5px 0;
+}
+
+.home__card a {
+    text-decoration: none;
+}
+
+.home__card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.home__card-tag-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.home__card-tag{
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    font-family: bagnardsans, sans-serif;
+    font-size: 15px;
+    padding: 0 8px;
+}
+
+.home__card-tag p {
+    color: var(--primary-background-color);
+}
+
+.home__card-tag-square {
+    background-color: var(--secondary-background-color);
+    width: 21px;
+    height: 21px;
+    rotate: 45deg;
+    z-index: 1;
+}
+
+.home__card-tag-square:nth-child(1) {
+    position: relative;
+    left: 10px;
+}
+
+.home__card-tag-square:nth-child(3) {
+    position: relative;
+    right: 10px;
+}
+
+.home__card-image {
+    width: 80%;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.home__card:hover .home__background-image {
+    opacity: 0.5;
+}
+
+.home__card-description {
+    margin-bottom: 3px;
+}
+
+.home__card ul {
+    margin: 15px 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.home__card li {
+    color: var(--primary-text-color);
+    margin: 3px;
+    font-size: 14px;
+    font-family: bagnardsans, sans-serif;
+}
+
+.home__card-button-container {
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    margin: 15px 0;
+}
+
+.home__card-button{
+    border: none;
+    border-radius: 3px;
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: bagnardsans, sans-serif;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    transition: box-shadow 0.15s ease-out;
+}
+
+.home__card-button:hover {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 1024px) { 
+    .home__card:nth-child(even) {
+        position: relative;
+        top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home__card {
+        width: 80%;
+    }
+}

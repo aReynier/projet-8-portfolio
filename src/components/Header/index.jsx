@@ -15,7 +15,7 @@ const Header = () => {
   const { switchTheme, theme } = useContext(UseTheme);
 
   return (
-    <div className="header header__container">
+    <div className="header__container">
       <HeaderLogoLink theme={theme} />
       <HeaderLinks data={data} language={language} />
       <HeaderMenu

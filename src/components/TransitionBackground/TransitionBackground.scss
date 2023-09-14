@@ -1,0 +1,19 @@
+.transition__background {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(
+to bottom right,
+rgba(255,255,255,0) 50%,
+var(--tertiary-background-color) 50%
+);
+}
+
+.transition__background2 {
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(
+to top left,
+rgba(255,255,255,0) 50%,
+var(--tertiary-background-color) 50%
+);
+}

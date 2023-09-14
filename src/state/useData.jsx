@@ -1,6 +1,6 @@
 import { React, createContext, useState, useEffect } from 'react';
 
-import textData from '../pages/Home/fetchText';
+import allData from '../fetch/fetchText';
 
 export const Data = createContext({
   data: {},
@@ -11,15 +11,15 @@ const DataProvider = (props) => {
   const [loading, setLoading] = useState(true);
   const { children } = props;
 
-  const fetchText = async () => {
-    const result = await textData();
+  const fetchData = async () => {
+    const result = await allData();
 
     setData(result);
     setLoading(false);
   };
 
   useEffect(() => {
-    fetchText();
+    fetchData();
   }, []);
 
   return loading ? (

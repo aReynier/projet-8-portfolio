@@ -1,5 +1,6 @@
 import { React, useContext } from 'react';
 import { UseTheme } from '../../state/useTheme';
+import './MainContainer.scss';
 
 const MainContainer = ({ children }) => {
   const { theme } = useContext(UseTheme);

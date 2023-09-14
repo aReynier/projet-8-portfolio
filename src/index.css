@@ -47,13 +47,15 @@
 }
 
 @font-face {
-  font-family: chromate;
+  font-family: noctisHeavy;
   src: url('../src/assets/fonts/Noctis-Heavy-trial.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: bagnardsans;
   src: url('../src/assets/fonts/BagnardSans.otf') format('opentype');
+  font-display: swap;
 }
 
 body {
@@ -63,17 +65,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-main {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: var(--primary-background-color);
-}
-
-.pattern {
-  background: var(--background-pattern);
 }
 
 code {

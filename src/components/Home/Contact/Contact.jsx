@@ -1,28 +1,27 @@
 import React from 'react';
-import ContactAndNetwork from './ContactAndNetwork/ContactAndNetwork';
+import './Contact.scss';
+import Title from '../../Title/Title';
+import ContactForm from './ContactForm/ContactForm';
+import ContactNetwork from './ContactNetwork/ContactNetwork';
+import TransitionBackground from '../../TransitionBackground/TransitionBackground';
 
 const Contact = (props) => {
   const { data, language } = props;
 
   return (
-    <div className="up__background__contact">
-      <div
-        id="contact"
-        className="transition__background contact__transition"
-      />
+    <div className="up__background__contact" id="contact">
+      <TransitionBackground backgroundClass="transition__background" />
       <div className="background__contact">
         <div className="contact">
-          <div className="home__title--contact">
-            <div className="home__title--square-container">
-              <div className="home__title--square-1">
-                <div className="home__title--square-2" />
-              </div>
-            </div>
-            <h2 className="contact__title home__title-text">
-              {data[language].headers[3].link}
-            </h2>
+          <Title
+            title={data[language].headers[3].link}
+            titleContainerClass="home__title--contact"
+            titleHeaderClass="contact__title"
+          />
+          <div className="split__contact">
+            <ContactForm data={data} language={language} />
+            <ContactNetwork data={data} language={language} />
           </div>
-          <ContactAndNetwork data={data} language={language} />
         </div>
       </div>
     </div>

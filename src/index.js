@@ -6,10 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Error from './pages/Error';
+import Error from './pages/Error/index';
 import MainContainer from './components/MainContainer/MainContainer';
-// why this line doesn't work?
-// import { DataProvider, UseThemeProvider, UseLanguageProvider } from './state';
 import DataProvider from './state/useData';
 import UseThemeProvider from './state/useTheme';
 import UseLanguageProvider from './state/useLanguage';
@@ -25,6 +23,7 @@ root.render(
               <Header />
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/404" element={<Error />} />
                 <Route path="*" element={<Error />} />
               </Routes>
               <Footer />

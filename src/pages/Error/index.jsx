@@ -1,12 +1,21 @@
-import React from 'react';
+import { React, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import './Error.scss';
+import { UseLanguage } from '../../state/useLanguage';
+import { Data } from '../../state/useData';
 
 const Error = () => {
-  <div className="error__background">
-    <h1>Oups! La page que vous demandez n&apos;existe pas.</h1>
-    <Link to="/">Retour à la page d&apos;accueil</Link>
-  </div>;
+  const { data } = useContext(Data);
+  const { language } = useContext(UseLanguage);
+
+  return (
+    <div className="error__background">
+      <div className="error__container">
+        <h1>{data[language].errorStatement}</h1>
+        <Link to="/">{data[language].errorLink}</Link>
+      </div>
+    </div>
+  );
 };
 
 export default Error;

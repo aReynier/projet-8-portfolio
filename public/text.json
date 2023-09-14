@@ -1,6 +1,6 @@
     {
         "en": {
-        "title": "Hello! I'm front-end developer",
+        "title": "Hello! I'm Front-End developer",
         "headers": [
             {
                 "link": "Home",
@@ -23,6 +23,8 @@
                 "anchor": "contact"
             }
         ],
+        "themeLabel": "theme",
+        "languageLabel": "language",
         "callToAction": "Contact me",
         "presentationText": "I'm Aurore, a passionate web developer with skills in HTML, CSS, JavaScript, and React. I have completed the web developer training program at OpenClassrooms. I also have some knowledge of Photoshop, Illustrator and drawing acquired through my past experiences. I am currently seeking my first opportunity as a junior Front-End developer. Feel free to explore my portfolio below and get in touch if you find my profile appealing. I'm excited about the prospect of applying my skills within a dynamic team and contributing to the success of web projects.",
         "workList": [
@@ -34,12 +36,13 @@
                     "url": "https://github.com/aReynier/projet-8-portfolio"
                 }],
                 "tag": ["HTML", "CSS", "React"],
-                "description": "Portfolio made under React",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview_portfolio.jpg",
+                "description": "This portfolio, made under React",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview_portfolio.webp",
+                "imageAlt": "portfolio  project preview",
                 "goals": [
                     "Made under React",
-                    "Language and theme with context api",
-                    "Personnal design"
+                    "Language and theming with context api",
+                    "Personal design"
                 ]
             },
             {
@@ -50,8 +53,9 @@
                     "url": "https://github.com/aReynier/projet-7-back-end-site-mon-vieux-grimoire"
                 }],
                 "tag": ["JavaScript","NodeJS"],
-                "description": "Backend of a website",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.jpg",
+                "description": "Development of the Back-End of a website for book classification and rating among users",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.webp",
+                "imageAlt": "mon vieux grimoire project preview",
                 "goals": [
                     "NodeJS discovery",
                     "ExpressJS discovery",
@@ -66,8 +70,9 @@
                     "url": "https://github.com/aReynier/projet-6-site-kasa"
                 }],
                 "tag": ["React"],
-                "description": "Project under React",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-casa.jpg",
+                "description": "A website for booking accommodations between individuals, integrated with React",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-casa.webp",
+                "imageAlt": "Kasa project preview",
                 "goals": [
                     "first React project",
                     "Sass discovery",
@@ -86,8 +91,9 @@
                     "url": "https://github.com/aReynier/projet-5-site-nina-carducci"
                 }],
                 "tag": ["HTML","CSS","JavaScript"],
-                "description": "Site optimisation",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-nina-carducci.jpg",
+                "description": "Optimization of a photographer's portfolio, with the goal of making it load faster, improving SEO, and enhancing accessibility",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-nina-carducci.webp",
+                "imageAlt": "Nina Carducci project preview",
                 "goals": [
                     "Lighthouse discovery",
                     "Accessibility and SEO",
@@ -102,11 +108,12 @@
                     "url": "https://github.com/aReynier/projet-3-portfolio-architecte-sophie-bluel"
                 }],
                 "tag": ["HTML","CSS","JavaScript"],
-                "description": "Made with JavaScript",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-Sophie-Bluel.jpg",
+                "description": "JavaScript added to the front-end of a portfolio to make it dynamic and enable the addition of projects via an admin panel",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-Sophie-Bluel.webp",
+                "imageAlt": "Sophie Bluel project preview",
                 "goals": [
                     "Using JavaScript for a website",
-                    "Retrieva back-end datas with fetch",
+                    "Retrieve Back-End data with fetch",
                     "asynchrony"
                 ]
             },
@@ -122,12 +129,13 @@
                     "url": "https://github.com/aReynier/Projet-2-page-d-accueil-de-Booki"
                 }],
                 "tag": ["HTML","CSS"],
-                "description": "HTML and CSS integration",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-booki.jpg",
+                "description": "Integration of a page on a website using HTML and vanilla CSS for a vacation accommodation booking site",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-booki.webp",
+                "imageAlt": "Booki project preview",
                 "goals": [
                     "HTML and CSS on professionalizing project",
                     "Language and theme with context api",
-                    "Managing esponsive"
+                    "Managing responsive"
                 ]
             }
         ],
@@ -146,10 +154,12 @@
             }
         ],
         "footer": "Aurore Reynier - 2023",
-        "credit":  "image credit: Clement Helardot - unsplash"
+        "credit":  "image credit: Clement Helardot - unsplash",
+        "errorStatement": "Woups! The page you're looking for doesn't exist.",
+        "errorLink": "Return to the home page."
     },
         "fr": {
-        "title": "Bonjour! je suis développeur front-end",
+        "title": "Bonjour! Je suis développeur Front-End",
         "headers":[
             {
                 "link": "Accueil",
@@ -172,6 +182,8 @@
                 "anchor": "contact"
             }
         ],
+        "themeLabel": "thème",
+        "languageLabel": "langage",
         "callToAction": "Me contacter",
         "presentationText": "Je suis Aurore, passionnée en développement web. J'ai suivi la formation développeur web d'openClassrooms. J'ai des compétences en HTML, CSS, JavaScript, ainsi que React. Je dispose aussi de quelques notions de photoshop, d'illustrator et de dessin acquises lors de mes expériences passées. Je suis actuellement à la recherche de ma première opportunité en tant que développeur Front-End junior. N'hésitez pas à explorer mes réalisations ci-dessous et à me contacter si vous êtes intéressés par mon profil. Je suis enthousiaste à l'idée de mettre en pratique mes compétences au sein d'une équipe dynamique et de contribuer au succès de projets web.",
         "workList": [
@@ -184,7 +196,8 @@
                 }],
                 "tag": ["HTML","CSS","React"],
                 "description": "Réalisation de ce portfolio sous React ",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview_portfolio.jpg",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview_portfolio.webp",
+                "imageAlt": "aperçu projet portfolio",
                 "goals": [
                     "Réalisé sous React",
                     "Langues et thèmes avec context api",
@@ -199,8 +212,9 @@
                     "url": "https://github.com/aReynier/projet-7-back-end-site-mon-vieux-grimoire"
                 }],
                 "tag": ["JavaScript","NodeJS"],
-                "description": "Réalisation du backend d'un site",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.jpg",
+                "description": "Réalisation du Back-End d'un site de classification et notation de livres entre utilisateurs",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-mon-vieux-grimoire.webp",
+                "imageAlt": "aperçu projet mon vieux grimoire",
                 "goals": [
                     "Découverte de NodeJS",
                     "Découverte d'expressJS",
@@ -215,8 +229,9 @@
                     "url": "https://github.com/aReynier/projet-6-site-kasa"
                 }],
                 "tag": ["React"],
-                "description": "Site de réservation de logements entre particulier intégré avec React",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-casa.jpg",
+                "description": "Site de réservation de logements entre particuliers, intégré avec React",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-casa.webp",
+                "imageAlt": "aperçu projet Kasa",
                 "goals": [
                     "Premier projet sous React",
                     "Découverte de Sass",
@@ -235,8 +250,9 @@
                     "url": "https://github.com/aReynier/projet-5-site-nina-carducci"
                 }],
                 "tag": ["HTML","CSS","JavaScript"],
-                "description": "Optimisation du porfolio d'une photographe, les but étaait qu'il charge plus rapidement, ainsi que d'améliorer le SEO et l'accessibilité",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-nina-carducci.jpg",
+                "description": "Optimisation du porfolio d'une photographe, les but était qu'il se charge plus rapidement, ainsi que d'améliorer le SEO et l'accessibilité",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-nina-carducci.webp",
+                "imageAlt": "aperçu projet Nina Carducci",
                 "goals": [
                     "Découverte de Lighthouse",
                     "Accessibilité et SEO",
@@ -252,10 +268,11 @@
                 }],
                 "tag": ["HTML","CSS","JavaScript"],
                 "description": "Javascript ajouté côté front-end d'un porfolio le rendre dynamique et permettre l'ajout de travaux via un espace d'administration",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-Sophie-Bluel.jpg",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-Sophie-Bluel.webp",
+                "imageAlt": "aperçu projet Sophie Bluel",
                 "goals": [
                     "Utilisation de JavaScript pour un site web",
-                    "Récupération des données du back-end via fetch",
+                    "Récupération des données du Back-End via fetch",
                     "asynchronie"
                 ]
             },
@@ -272,7 +289,8 @@
                 }],
                 "tag": ["HTML","CSS"],
                 "description": "intégration de la page d'un site en HTML et CSS vanilla pour un site de réservation de logement de vacances",
-                "imageUrl": "http://aurore-reynier.com/static/media/preview-booki.jpg",
+                "imageUrl": "https://aurore-reynier.com/static/media/preview-booki.webp",
+                "imageAlt": "aperçu projet Booki",
                 "goals": [
                     "HTML et CSS dans un cadre professionalisant",
                     "Intégration à partir d'une maquette fournie",
@@ -295,6 +313,8 @@
             }
         ],
         "footer": "Aurore Reynier - 2023",
-        "credit":  "crédit image: Clement Helardot - unsplash"
+        "credit":  "crédit image: Clement Helardot - unsplash",
+        "errorStatement": "Oups! La page que vous demandez n'existe pas.",
+        "errorLink": "Retour à la page d'accueil"
         }
     }

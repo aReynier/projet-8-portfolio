@@ -1,0 +1,32 @@
+.home__title--square-container {
+    border:4px solid var(--title-square);
+    width: 50px;
+    height: 50px;
+    rotate: 45deg;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__title--square-1 {
+    border:2px solid var(--title-square);
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__title--square-2 {
+    border:2px solid var(--title-square);
+    width: 25px;
+    height: 25px;
+}
+
+.home__title-text {
+    padding: 0 0 0 28px;
+    z-index: 2;
+    position: relative;
+}

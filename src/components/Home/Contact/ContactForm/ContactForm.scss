@@ -1,0 +1,77 @@
+.contact__form {
+    gap: 10px;
+}
+
+.contact__form label {
+    color: var(--primary-text-color);
+    font-family: bagnardsans, sans-serif; 
+    font-size: 16px;
+}
+
+
+.contact__form--field {
+    border-radius: 3px;
+    height: 35px;
+    border: none;
+    width: 80%;
+    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.3s ease-out;
+}
+
+.contact__form textarea {
+    height: 180px;
+}
+
+.contact__form--field {
+    font-family: bagnardsans, sans-serif;
+    color: var(--primary-text-color);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.contact__form textarea {
+    padding: 17px 10px;
+}
+
+.contact__form--field::placeholder {
+    font-family: bagnardsans, sans-serif;
+    color: gray;
+}
+
+.contact__form input:hover, .contact__form textarea:hover {
+    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.1);
+}
+
+.contact__form--null {
+    opacity: 0;
+    background-color: green;
+    color: var(--secondary-text-color);
+    padding: 10px 40px;
+    font-family: bagnardsans, sans-serif;
+    font-size: 18px;
+    display: block;
+    transition: opacity 0.3s;
+}
+
+.contact__form--sent {
+    opacity: 1;
+}
+
+.contact__submit {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-background-color);
+    color: var(--secondary-text-color);
+    box-shadow: 0 0 5px black;
+    transition: box-shadow 0.15s ease-out;
+}
+
+.contact__submit:hover {
+    box-shadow: 0 0 2px black;
+}
+
+.contact__submit {
+    height: 35px;
+    border: none;
+    padding: 0 25px;
+}
