@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import linkedinLogo from '../../../../assets/logos/linkedin-logo-blanc.webp';
 import behanceLogo from '../../../../assets/logos/behance.webp';
 import downloadPdf from '../../../../assets/icons/download-resume-pdf.webp';
-import resumeFr from '../../../../assets/files/cv-reynier-decembre-2022-fr.pdf';
-import resumeEn from '../../../../assets/files/CV-canada-test-v2-english.pdf';
+import resumeFr from '../../../../assets/files/cv septembre 2023 fr portfolio.pdf';
+import resumeEn from '../../../../assets/files/cv septembre 2023 en portfolio.pdf';
 import './ContactNetwork.scss';
 
 const ContactNetwork = (props) => {
