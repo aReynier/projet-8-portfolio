@@ -29,6 +29,52 @@
     "presentationText": "I'm Aurore, a passionate web developer with skills in HTML, CSS, JavaScript, and React. I have completed the web developer training program at OpenClassrooms. I also have some knowledge of Photoshop, Illustrator and drawing acquired through my past experiences. I am currently seeking my first opportunity as a junior Front-End developer. Feel free to explore my portfolio below and get in touch if you find my profile appealing. I'm excited about the prospect of applying my skills within a dynamic team and contributing to the success of web projects.",
     "workList": [
       {
+        "id": "93260581234",
+        "title": "Le repaire des chevreuils - fictive guest house (WIP)",
+        "urls": [
+          {
+            "button": "Figma",
+            "url": "https://www.figma.com/design/6cuk54Q24zpHThB3aWzCw6/Le-repaire-des-chevreuils?node-id=2-2&t=rR9TbsEBALjCuLIQ-1"
+          },
+          {
+            "button": "Github front-end",
+            "url": "https://github.com/aReynier/repaire-chevreuils-frontend"
+          },
+          {
+            "button": "Github back-end",
+            "url": "https://github.com/aReynier/repaire-chevreuils-backend"
+          }
+        ],
+        "tag": ["HTML", "CSS", "VueJS 3", "Figma", "Spring Boot", "Java"],
+        "description": "Booking website of a guest house, work in progress side project",
+        "imageUrl": "https://aurore-reynier.com/static/media/preview-chevreuils.webp",
+        "imageAlt": "Le repaire des chevreuils website preview",
+        "goals": [
+          "Creation of a Figma model before dev",
+          "Made with VueJS 3",
+          "Spring Boot API"
+        ]
+      },
+      {
+        "id": "9326058698",
+        "title": "Howeco - showcase website",
+        "urls": [
+          {
+            "button": "Website",
+            "url": "https://howeco.fr/#/"
+          }
+        ],
+        "tag": ["HTML", "CSS", "VueJS 3", "Figma"],
+        "description": "Showcase website of the start-up Howeco. On this project I make the model on Figma and develop the front-end part",
+        "imageUrl": "https://aurore-reynier.com/static/media/preview-howeco.webp",
+        "imageAlt": "Howeco showcase website preview",
+        "goals": [
+          "Creation of a Figma model before dev",
+          "Made with VueJS 3",
+          "Website for a real company"
+        ]
+      },
+      {
         "id": "93260586456",
         "title": "Calculator",
         "urls": [
@@ -242,11 +288,57 @@
     "presentationText": "Je suis Aurore, passionnée en développement web. J'ai suivi la formation développeur web d'openClassrooms. J'ai des compétences en HTML, CSS, JavaScript, ainsi que React. Je dispose aussi de quelques notions de photoshop, d'illustrator et de dessin acquises lors de mes expériences passées. Je suis actuellement à la recherche de ma première opportunité en tant que développeur Front-End junior. N'hésitez pas à explorer mes réalisations ci-dessous et à me contacter si vous êtes intéressés par mon profil. Je suis enthousiaste à l'idée de mettre en pratique mes compétences au sein d'une équipe dynamique et de contribuer au succès de projets web.",
     "workList": [
       {
+        "id": "93260581234",
+        "title": "Le repaire des chevreuils - maison d'hôte fictive (WIP)",
+        "urls": [
+          {
+            "button": "Figma",
+            "url": "https://www.figma.com/design/6cuk54Q24zpHThB3aWzCw6/Le-repaire-des-chevreuils?node-id=2-2&t=rR9TbsEBALjCuLIQ-1"
+          },
+          {
+            "button": "Github front-end",
+            "url": "https://github.com/aReynier/repaire-chevreuils-frontend"
+          },
+          {
+            "button": "Github back-end",
+            "url": "https://github.com/aReynier/repaire-chevreuils-backend"
+          }
+        ],
+        "tag": ["HTML", "CSS", "VueJS 3", "Figma", "Spring Boot", "Java"],
+        "description": "Site de réservation d'une maison d'hôte fictive, projet personnel en cours",
+        "imageUrl": "https://aurore-reynier.com/static/media/preview-chevreuils.webp",
+        "imageAlt": "Le repaire des chevreuils website preview",
+        "goals": [
+          "Maquette réalisée sous Figma",
+          "Réalisé sous VueJS 3",
+          "API avec Spring Boot"
+        ]
+      },
+      {
+        "id": "9326058698",
+        "title": "Howeco - site vitrine",
+        "urls": [
+          {
+            "button": "Site",
+            "url": "https://howeco.fr/#/"
+          }
+        ],
+        "tag": ["HTML", "CSS", "VueJS 3", "Figma"],
+        "description": "Site vitrine de la start-up Howeco. Sur ce projet j'ai réalisé la maquette sous Figma et la partie front-end",
+        "imageUrl": "https://aurore-reynier.com/static/media/preview-howeco.webp",
+        "imageAlt": "aperçu site vitrine Howeco",
+        "goals": [
+          "Maquette réalisée sous Figma",
+          "Réalisé sous VueJS 3",
+          "Projet pour une entreprise existante"
+        ]
+      },
+      {
         "id": "93260586456",
         "title": "Calculette",
         "urls": [
           {
-            "button": "Website",
+            "button": "Site",
             "url": "https://areynier.github.io/calculator/"
           },
           {
@@ -257,7 +349,7 @@
         "tag": ["HTML", "CSS", "JavaScript"],
         "description": "Calculatrice fonctionnelle faite avec javaScript vanilla",
         "imageUrl": "https://aurore-reynier.com/static/media/preview-calculator.webp",
-        "imageAlt": "",
+        "imageAlt": "aperçu projet calculette",
         "goals": [
           "Fait avec javaScript vanilla",
           "Interactions des boutons et claviers",
