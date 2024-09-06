@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import linkedinLogo from '../../../../assets/logos/linkedin-logo-blanc.webp';
 import behanceLogo from '../../../../assets/logos/behance.webp';
 import downloadPdf from '../../../../assets/icons/download-resume-pdf.webp';
-import resumeFr from '../../../../assets/files/cv septembre 2023 fr portfolio.pdf';
-import resumeEn from '../../../../assets/files/cv septembre 2023 en portfolio.pdf';
+import resumeFr from '../../../../assets/files/cv septembre 2024 fr portfolio.pdf';
+import resumeEn from '../../../../assets/files/cv septembre 2024 en portfolio.pdf';
 import './ContactNetwork.scss';
 
 const ContactNetwork = (props) => {

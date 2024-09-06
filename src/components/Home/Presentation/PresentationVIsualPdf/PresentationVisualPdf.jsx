@@ -3,8 +3,8 @@ import React from 'react';
 import temporaryPortrait from '../../../../assets/images/auto-portrait.webp';
 import downloadPdf from '../../../../assets/icons/download-resume-pdf.webp';
 
-import resumeFr from '../../../../assets/files/cv septembre 2023 fr portfolio.pdf';
-import resumeEn from '../../../../assets/files/cv septembre 2023 en portfolio.pdf';
+import resumeFr from '../../../../assets/files/cv septembre 2024 fr portfolio.pdf';
+import resumeEn from '../../../../assets/files/cv septembre 2024 en portfolio.pdf';
 
 const PresentationVisualPdf = (props) => {
   const { language } = props;
